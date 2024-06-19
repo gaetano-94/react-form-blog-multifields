@@ -1,0 +1,110 @@
+/*
+RESET
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: 'Arial', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.newTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+form {
+  margin: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 130px);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 9px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.containerIcons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-icon,
+.save-icon,
+.delete-icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.edit-icon:hover,
+.save-icon:hover {
+  color: #007bff;
+}
+
+.delete-icon {
+  color: #ff0000;
+}
+
+.delete-icon:hover {
+  color: #cc0000;
+}
