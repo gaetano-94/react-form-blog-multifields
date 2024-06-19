@@ -11,7 +11,7 @@ const ArticleForm = ({
   return (
     <div className="form-container">
       {/* Titolo dinamico in base a se si sta modificando o aggiungendo un articolo */}
-      <h2>{formData.title ? 'Modifica Articolo' : 'Aggiungi Articolo'}</h2>
+      <h2>{formData.title ? 'Aggiungi Articolo' : 'Aggiungi Articolo'}</h2>
       <form onSubmit={onSubmit}>
         {/* Campo di input per il titolo */}
         <input
