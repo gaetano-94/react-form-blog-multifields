@@ -1,11 +1,11 @@
 // IMPORT
 
-import From from './components/MainComponent';
+import FormContainer from './components/MainComponent';
 
 const App = () => {
   return (
     <>
-      <From />
+      <FormContainer />
     </>
   );
 };
