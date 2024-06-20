@@ -35,9 +35,19 @@ const ArticleList = ({ articles, onEdit, onDelete }) => {
               />
             )}
             <p>{article.content}</p>
-            <p>Categoria: {article.category}</p>
-            <p>Tags: {article.tags.join(', ')}</p>
-            <p>{article.published ? 'Pubblicato' : 'Non Pubblicato'}</p>
+            <p>
+              <strong>Categoria: </strong>
+              {article.category}
+            </p>
+            <p>
+              <strong>Tags: </strong>
+              {article.tags.join(', ')}
+            </p>
+            <p>
+              <strong>
+                {article.published ? 'Pubblicato' : 'Non Pubblicato'}
+              </strong>
+            </p>
           </div>
           <div className="icons">
             <FaEdit className="edit-icon" onClick={() => onEdit(index)} />
